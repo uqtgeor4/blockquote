@@ -1,2 +1,2 @@
 # blockquote
-Blockquote variants by UQ Standard
+Blockquote implementation to UQ Standard
