@@ -15,10 +15,10 @@ section {
   padding: 30px 0px;
 }
 
-.bg-white {
+.bg-lite {
   background-color: #FFF;
 }
-.bg-purple {
+.bg-dark {
   background-color: #522475;
 }
 
@@ -38,11 +38,11 @@ section {
   font-style: italic;
 }
 
-.blockquote.blockquote--bg-white {
+.blockquote.blockquote--bg-lite {
   color: #522475;
 }
 
-.blockquote.blockquote--bg-purple {
+.blockquote.blockquote--bg-dark {
   color: #FFF;
   background-color: #522475;
 }
@@ -78,11 +78,11 @@ section {
   background-color: #522475;
 }
 
-.blockquote.blockquote--bg-white::before {
+.blockquote.blockquote--bg-lite::before {
   background-color: #522475;
 }
 
-.blockquote.blockquote--bg-purple::before {
+.blockquote.blockquote--bg-dark::before {
   background-color: #FFF;
 }
 
@@ -96,6 +96,7 @@ section {
   width: auto;
   height: auto;
   content: '\275D';
+  font-family: 'Merriweather', serif;
   font-size: 3.5rem;
   font-style: normal;
   line-height: 100%;
@@ -109,7 +110,7 @@ section {
   left: 10px;
 }
 
-.blockquote.blockquote--bg-purple.blockquote--quotemark::before {
+.blockquote.blockquote--bg-dark.blockquote--quotemark::before {
   color: rgba(255,255,255,0.1);
 }
 
@@ -130,14 +131,14 @@ section {
 }
 
 /* Shame BEM */
-.blockquote.blockquote--bg-purple .blockquote__link,
-.blockquote.blockquote--bg-purple .blockquote__link:link,
-.blockquote.blockquote--bg-purple .blockquote__link:visited,
-.blockquote.blockquote--bg-purple .blockquote__link:active {
+.blockquote.blockquote--bg-dark .blockquote__link,
+.blockquote.blockquote--bg-dark .blockquote__link:link,
+.blockquote.blockquote--bg-dark .blockquote__link:visited,
+.blockquote.blockquote--bg-dark .blockquote__link:active {
   color: #FFF;
   text-decoration: underline;
 }
 
-.blockquote.blockquote--bg-purple .blockquote__link:hover {
+.blockquote.blockquote--bg-dark .blockquote__link:hover {
   text-decoration: none;
 }
