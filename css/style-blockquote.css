@@ -22,10 +22,6 @@ section {
   background-color: #522475;
 }
 
-
-
-
-
 /* Block */
 .blockquote {
   position: relative;
@@ -59,15 +55,6 @@ section {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51247a', endColorstr='#962a8b',GradientType=1 ); /* IE6-9 */
 }
 
-.blockquote.blockquote--boxed::before {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  content:'';
-  width: 5px;
-  height: calc(100% - 60px);
-}
-
 .blockquote::before {
   position: absolute;
   top: 0;
@@ -86,8 +73,14 @@ section {
   background-color: #FFF;
 }
 
-
-
+.blockquote.blockquote--boxed::before {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  content:'';
+  width: 5px;
+  height: calc(100% - 60px);
+}
 
 .blockquote.blockquote--quotemark::before {
   position: absolute;
@@ -96,7 +89,6 @@ section {
   width: auto;
   height: auto;
   content: '\275D';
-  font-family: 'Merriweather', serif;
   font-size: 3.5rem;
   font-style: normal;
   line-height: 100%;
@@ -113,9 +105,6 @@ section {
 .blockquote.blockquote--bg-dark.blockquote--quotemark::before {
   color: rgba(255,255,255,0.1);
 }
-
-
-
 
 /* Elements */
 .blockquote__body {
