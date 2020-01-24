@@ -23,6 +23,11 @@ section {
 }
 
 /* Blocks */
+q, 
+blockquote {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
 .blockquote {
   position: relative;
   width: calc(100% - 30px);
@@ -88,22 +93,27 @@ section {
   left: -20px;
   width: auto;
   height: auto;
-  content: '\275D';
-  font-size: 3.5rem;
+  content: open-quote;
+  font-family: Georgia, serif;
+  font-size: 6rem;
   font-style: normal;
   line-height: 100%;
   color: rgba(0,0,0,0.1);
   background-color: transparent;
 }
 
-.blockquote.blockquote--boxed.blockquote--quotemark::before {
-  position: absolute;
-  top: 40px;
-  left: 10px;
+.blockquote.blockquote--bg-lite.blockquote--quotemark::before {
+  color: rgba(0,0,0,0.1);
 }
 
 .blockquote.blockquote--bg-dark.blockquote--quotemark::before {
   color: rgba(255,255,255,0.1);
+}
+
+.blockquote.blockquote--boxed.blockquote--quotemark::before {
+  position: absolute;
+  top: 40px;
+  left: 10px;
 }
 
 /* Elements */
