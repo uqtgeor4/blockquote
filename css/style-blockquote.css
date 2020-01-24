@@ -23,11 +23,6 @@ section {
 }
 
 /* Blocks */
-/*q, 
-blockquote {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}*/
-
 .blockquote {
   position: relative;
   width: calc(100% - 30px);
@@ -94,7 +89,7 @@ blockquote {
   width: auto;
   height: auto;
   content: open-quote;
-  font-family: Georgia, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 6rem;
   font-style: normal;
   line-height: 100%;
