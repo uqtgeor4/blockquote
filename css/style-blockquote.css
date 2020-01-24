@@ -124,7 +124,6 @@ section {
   max-width: 300px;
 }
 
-/* Shame BEM */
 .blockquote.blockquote--bg-dark .blockquote__link,
 .blockquote.blockquote--bg-dark .blockquote__link:link,
 .blockquote.blockquote--bg-dark .blockquote__link:visited,
